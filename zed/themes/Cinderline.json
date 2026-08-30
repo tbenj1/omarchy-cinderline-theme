@@ -1,0 +1,65 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
+  "name": "Cinderline",
+  "author": "tbenj1",
+  "themes": [
+    {
+      "name": "Cinderline",
+      "appearance": "dark",
+      "style": {
+        "background": "#0e0c0b",
+        "editor.background": "#0e0c0b",
+        "editor.foreground": "#dfd0bb",
+        "text": "#dfd0bb",
+        "text.muted": "#8c7b67",
+        "border": "#4a3424",
+        "panel.background": "#150f0a",
+        "title_bar.background": "#150f0a",
+        "status_bar.background": "#150f0a",
+        "tab_bar.background": "#150f0a",
+        "tab.active_background": "#402312",
+        "terminal.background": "#0e0c0b",
+        "terminal.foreground": "#dfd0bb",
+        "terminal.ansi.black": "#080706",
+        "terminal.ansi.red": "#d87363",
+        "terminal.ansi.green": "#87b978",
+        "terminal.ansi.yellow": "#f1c76a",
+        "terminal.ansi.blue": "#86a6b8",
+        "terminal.ansi.magenta": "#b9899a",
+        "terminal.ansi.cyan": "#8fb5aa",
+        "terminal.ansi.white": "#dfd0bb",
+        "terminal.ansi.bright_black": "#8c7b67",
+        "terminal.ansi.bright_red": "#ef8d79",
+        "terminal.ansi.bright_green": "#a1ca91",
+        "terminal.ansi.bright_yellow": "#f6d890",
+        "terminal.ansi.bright_blue": "#a3bdcb",
+        "terminal.ansi.bright_magenta": "#d0a3b0",
+        "terminal.ansi.bright_cyan": "#abd0c6",
+        "terminal.ansi.bright_white": "#f2e6d4",
+        "syntax": {
+          "comment": {
+            "color": "#8c7b67"
+          },
+          "string": {
+            "color": "#87b978"
+          },
+          "keyword": {
+            "color": "#e97835"
+          },
+          "function": {
+            "color": "#f1c76a"
+          },
+          "number": {
+            "color": "#b9899a"
+          },
+          "type": {
+            "color": "#8fb5aa"
+          },
+          "variable": {
+            "color": "#dfd0bb"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+# Cinderline shell overrides for Omarchy 4 / Quattro.
+# Visual only: no font-family, monitor, workspace, input, or executable settings.
+
+[bar]
+background = "#150f0a"
+background-alpha = 0.94
+text = "#dfd0bb"
+active = "#e97835"
+scale-with-font = true
+
+[hyprland]
+active-border = "rgb(e97835) rgb(efb85f) 45deg"
+active-border-foreground = "rgb(e97835) rgb(f2e6d4) 45deg"
+
+[controls]
+normal-color = "#dfd0bb"
+normal-fill-alpha = 0.04
+normal-border = "#4a3424"
+normal-border-width = 1
+normal-border-alpha = 0.55
+hover-cursor-color = "#f2b667"
+hover-cursor-fill-alpha = 0.08
+hover-cursor-border = "rgb(e97835) rgb(efb85f) 45deg"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.70
+focus-color = "#f6cf98"
+focus-fill-alpha = 0.10
+focus-border = "hyprland.active-border"
+focus-border-width = 1
+focus-border-alpha = 0.82
+selected-color = "#f6cf98"
+selected-fill-alpha = 0.14
+selected-border = "#e97835"
+selected-border-width = 1
+selected-border-alpha = 0.78
+pressed-color = "#efb85f"
+pressed-fill-alpha = 0.20
+selection-color = "#402312"
+selection-fill-alpha = 0.45
+
+[popups]
+background = "#1e1912"
+background-alpha = 0.96
+text = "#dfd0bb"
+border = "hyprland.active-border"
+border-alpha = 0.76
+border-width = 1
+
+[tooltip]
+background = "#0d0b09"
+background-alpha = 0.98
+text = "#e4d8c6"
+border = "#4a3424"
+border-alpha = 0.80
+
+[notifications]
+background = "#1e1912"
+background-alpha = 0.96
+text = "#dfd0bb"
+border = "hyprland.active-border"
+border-alpha = 0.74
+border-width = 1
+countdown = "#efb85f"
+
+[launcher]
+background = "#150f0a"
+background-alpha = 0.96
+text = "#b7a68e"
+border = "hyprland.active-border"
+border-alpha = 0.84
+border-width = 1
+scrim = "#080706"
+scrim-alpha = 0.66
+selected-background = "#402312"
+selected-background-alpha = 0.92
+selected-text = "#f6cf98"
+selected-border = "#e97835"
+selected-border-alpha = 0.94
+selected-border-width = 0
+selected-border-width-left = 3
+
+[menu]
+background = "#150f0a"
+background-alpha = 0.96
+text = "#b7a68e"
+border = "hyprland.active-border"
+border-alpha = 0.84
+border-width = 1
+scrim = "#080706"
+scrim-alpha = 0.64
+selected-background = "#402312"
+selected-background-alpha = 0.92
+selected-text = "#f6cf98"
+selected-border = "#e97835"
+selected-border-alpha = 0.94
+selected-border-width = 0
+selected-border-width-left = 3
+
+[polkit]
+background = "#0d0b09"
+background-alpha = 0.98
+text = "#dfd0bb"
+text-error = "#ef8d79"
+border = "hyprland.active-border"
+border-error = "#d87363"
+border-alpha = 0.95
+scrim = "#080706"
+scrim-alpha = 0.72
+accent = "#e97835"
+
+[lock]
+background = "#0d0b09"
+background-alpha = 0.90
+text = "#f2e6d4"
+placeholder = "#8c7b67"
+text-error = "#ef8d79"
+border = "#4a3424"
+border-active = "hyprland.active-border"
+border-error = "#d87363"
+border-alpha = 0.96
+selection = "#402312"
+selection-alpha = 0.64
+
+[image-picker]
+scrim = "#080706"
+scrim-alpha = 0.68
+text = "#dfd0bb"
+selected-border = "#e97835"
+selected-border-alpha = 1.0
+unselected-border = "#4a3424"
+unselected-border-alpha = 0.55
