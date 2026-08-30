@@ -1,0 +1,39 @@
+# Root Cause — Omarchy Theme
+# Inspired by The Root Cause Handbook's warm technical / ember palette.
+# Designed for Omarchy's semantic theme system.
+
+mode = "dark"
+
+# Core interaction colors
+accent = "#e97835"
+selection = "#402312"
+muted = "#6b5847"
+
+# Background ramp: darkest -> lightest
+background = "#0e0c0b"
+dark_background = "#0d0b09"
+darker_background = "#080706"
+lighter_background = "#1e1912"
+
+# Foreground ramp: subdued -> brightest
+dark_foreground = "#8c7b67"
+foreground = "#dfd0bb"
+light_foreground = "#e4d8c6"
+bright_foreground = "#f2e6d4"
+
+# Semantic / terminal colors
+red = "#d87363"
+yellow = "#f1c76a"
+orange = "#e97835"
+green = "#87b978"
+cyan = "#8fb5aa"
+blue = "#86a6b8"
+magenta = "#b9899a"
+brown = "#6b3a1d"
+
+bright_red = "#ef8d79"
+bright_yellow = "#f6d890"
+bright_green = "#a1ca91"
+bright_cyan = "#abd0c6"
+bright_blue = "#a3bdcb"
+bright_magenta = "#d0a3b0"
